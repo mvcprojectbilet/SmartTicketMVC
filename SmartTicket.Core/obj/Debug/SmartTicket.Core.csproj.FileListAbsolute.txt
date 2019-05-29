@@ -1,0 +1,11 @@
+C:\Users\burak_000\Desktop\SmartTicket\SmartTicket.Core\bin\Debug\SmartTicket.Core.dll.config
+C:\Users\burak_000\Desktop\SmartTicket\SmartTicket.Core\bin\Debug\SmartTicket.Core.dll
+C:\Users\burak_000\Desktop\SmartTicket\SmartTicket.Core\bin\Debug\SmartTicket.Core.pdb
+C:\Users\burak_000\Desktop\SmartTicket\SmartTicket.Core\bin\Debug\EntityFramework.dll
+C:\Users\burak_000\Desktop\SmartTicket\SmartTicket.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\burak_000\Desktop\SmartTicket\SmartTicket.Core\bin\Debug\EntityFramework.xml
+C:\Users\burak_000\Desktop\SmartTicket\SmartTicket.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\burak_000\Desktop\SmartTicket\SmartTicket.Core\obj\Debug\SmartTicket.Core.csproj.CoreCompileInputs.cache
+C:\Users\burak_000\Desktop\SmartTicket\SmartTicket.Core\obj\Debug\SmartTicket.Core.csproj.CopyComplete
+C:\Users\burak_000\Desktop\SmartTicket\SmartTicket.Core\obj\Debug\SmartTicket.Core.dll
+C:\Users\burak_000\Desktop\SmartTicket\SmartTicket.Core\obj\Debug\SmartTicket.Core.pdb
