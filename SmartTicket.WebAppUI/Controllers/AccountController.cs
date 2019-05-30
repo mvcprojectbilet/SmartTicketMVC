@@ -32,45 +32,45 @@ namespace SmartTicket.WebAppUI.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult Login(User model)
         {
-            try
-            {
-                var obj = BaseRepository.context.Users.Where(a => a.Username == model.Username && a.Password == model.Password).FirstOrDefault();
-                if (obj.Username != model.Username)
-                {
-                    ModelState.AddModelError("", "Kullanıcı adı yanlış.");
-                    return View(model);
-                }
-                else if (obj.Password != model.Password)
-                {
-                    ModelState.AddModelError("", "Şifre yanlış.");
-                    return View(model);
-                }
-                else if (obj == null)
-                {
-                    ModelState.AddModelError("", "Kullanıcı adı ve şifre giriniz.");
-                    return View(model);
-                }
+            //try
+            //{
+            //    //var obj = BaseRepository.context.Users.Where(a => a.Username == model.Username && a.Password == model.Password).FirstOrDefault();
+            //    if (obj.Username != model.Username)
+            //    {
+            //        ModelState.AddModelError("", "Kullanıcı adı yanlış.");
+            //        return View(model);
+            //    }
+            //    else if (obj.Password != model.Password)
+            //    {
+            //        ModelState.AddModelError("", "Şifre yanlış.");
+            //        return View(model);
+            //    }
+            //    else if (obj == null)
+            //    {
+            //        ModelState.AddModelError("", "Kullanıcı adı ve şifre giriniz.");
+            //        return View(model);
+            //    }
 
-                else
-                {
-                    if (obj.Role == Role.Admin)
-                    {
-                        return RedirectToAction("About", "Home");
-                    }
-                    else if (obj.Role == Role.Editor)
-                    {
-                        return RedirectToAction("Index", "Home");
-                    }
-                    else if (obj.Role == Role.User)
-                    {
-                        return RedirectToAction("Index", "Home");
-                    }
-                }
-            }
-            catch (Exception)
-            {
+            //    else
+            //    {
+            //        if (obj.Role == Role.Admin)
+            //        {
+            //            return RedirectToAction("About", "Home");
+            //        }
+            //        else if (obj.Role == Role.Editor)
+            //        {
+            //            return RedirectToAction("Index", "Home");
+            //        }
+            //        else if (obj.Role == Role.User)
+            //        {
+            //            return RedirectToAction("Index", "Home");
+            //        }
+            //    }
+            //}
+            //catch (Exception)
+            //{
 
-            }
+            //}
 
             return View(model);
 
